@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: const Color.fromARGB(255, 155, 187, 213),
         body: SafeArea(
-          child: TextWeb()
+          child: Praktikum()
         ),
       ),
     );

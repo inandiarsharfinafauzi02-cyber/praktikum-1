@@ -9,8 +9,8 @@ class LogoPoliwangi extends StatelessWidget {
   }
 }
 
-class TextWeb extends StatelessWidget {
-  const TextWeb({super.key});
+class Praktikum extends StatelessWidget {
+  const Praktikum({super.key});
   @override
   Widget build(BuildContext context) {
     return Center(
