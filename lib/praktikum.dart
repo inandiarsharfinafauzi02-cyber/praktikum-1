@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+class LogoPoliwangi extends StatelessWidget {
+  const LogoPoliwangi({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset('images/foto.jpeg', width: 200, height: 200);
+  }
+}
+
+class TextWeb extends StatelessWidget {
+  const TextWeb({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center, // Tengah vertikal
+        crossAxisAlignment: CrossAxisAlignment.center, // Tengah horizontal
+        children: [
+          Text(
+            'Selamat Datang POLITEKNIK NEGERI BANYUWANGI',
+            style: TextStyle(
+              fontSize: 24,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+            textAlign: TextAlign.center, // Tengah horizontal untuk teks
+          ),
+          SizedBox(height: 30), // Jarak antara teks dan logo
+          LogoPoliwangi(),
+        ],
+      ),
+    );
+  }
+}
