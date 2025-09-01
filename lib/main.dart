@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-          body: Center(
-        child: ImagesWidget()
-        // TextWidget(),
-      )),
+        body: Center(
+          child: ImagesWidget(),
+          // TextWidget(),
+        ),
+      ),
     );
   }
 }
